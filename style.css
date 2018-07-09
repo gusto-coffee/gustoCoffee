@@ -1,0 +1,157 @@
+﻿/*
+Theme Name: Gusto Coffee
+Description: Thème pour le site Gusto Coffee
+Author: Emilie BAVARIN, Sharisse ENRIQUEZ, Clarisse LE CORRE, Alexia MAYNART
+Tags: wordpress, coffee, template, coworking
+*/
+
+
+
+
+/* GÉNÉRAL */
+body {
+    background: #fff;
+    font: 12px Verdana,Helvetica,Arial,sans-serif;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #E80B51;
+}
+img {
+    /*max-width: 150px;*/
+    height: auto;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    border-left: 12px solid #000;
+    padding-left: 12px;
+}
+.infosSupp {
+    margin-bottom: 16px;
+}
+h2 {
+    margin: 10px 0;
+}
+a.comment-reply-link, input[type='submit']{
+    background: #E80B51;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+}
+.reply {
+    float: left;
+    width: 100%;
+    margin: 12px 0 30px;
+}
+
+/* HEADER */
+header {
+    background: #392115;
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 8px 0 4px;
+    font: 12px Verdana,Helvetica,Arial,sans-serif;
+}
+a#logo {
+    float: left;
+    margin-right: 25px;
+    
+}
+
+
+a#logo img{
+    float: left;
+    margin-right: 25px;
+    height : 50px;
+}
+/* Navigation principale */
+nav#navPrincipal li {
+    float: left;
+    list-style: none;
+}
+nav#navPrincipal li a {
+    color: #fff;
+    display: block;
+    line-height: 25px;
+    padding: 0 12px;
+   /* border-right: 1px solid #2f2f2f;*/
+}
+nav#navPrincipal li:last-child a {
+    border: none;
+}
+nav#navPrincipal li a:hover {
+    color: #EF403F;
+}
+nav#navPrincipal {
+    padding-top: 8px;
+    float: left;
+}
+header form {
+    padding-top: 12px;
+    float: right;
+    position: relative;
+}
+header form input[type='text'] {
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+    padding: 4px 8px;
+}
+header form input[type='submit']{
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    background: url(img/loupe.jpg) no-repeat #000;
+    margin: 18px 10px 1px 1px;
+}
+
+/* CONTENU */
+#content {
+    /*clear: both;*/
+    width: 450px;
+    float: left;
+    min-height : 500px;
+}
+#filtre {
+    float: right;
+}
+
+
+#container ul li ul {
+ display:none;
+ }
+
+ #container ul li:hover ul {
+ display:block;
+ }
+#container li:hover ul li {
+ float:none;
+ background-color: #392115;
+ }
+
+ #container li ul {
+ position:absolute;
+ }
+
+#fondecran {
+ /* Fixe l'image en haut à gauche de la page */
+ position: fixed; 
+ top: 0; 
+ left: 0; 
+ /* Préserve le ratio de l'image */
+ min-width: 100%;
+ min-height: 100%;
+}
